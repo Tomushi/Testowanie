@@ -14,9 +14,11 @@ namespace InformacjeoUzytkowniku
             
             double czas = 15.65;
             int cyfra = 7;
+            int wiek = 20;
 
             Console.WriteLine($"Czas: {czas}");
             Console.WriteLine($"Cyferka: {cyfra}");
+            Console.WriteLine("Wiek " + wiek);
         }
 
     }
