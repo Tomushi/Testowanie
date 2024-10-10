@@ -46,11 +46,11 @@ namespace Testowanie
 
                 if (temp == "C")
                 {
-                    Console.WriteLine("Dziekuje za odpowiedz");
+                    Console.WriteLine("Ok ok");
                 }
                 else if (temp == "Z")
                 {
-                    Console.WriteLine("Dziekuje za odpowiedz");
+                    Console.WriteLine("Dobra");
                 }
                 else
                 {
@@ -72,7 +72,7 @@ namespace Testowanie
                 }
 
             }
-            Console.WriteLine("Dziekuje i do widzenia");
+            Console.WriteLine("Spadam, nacisnij cokolwiek aby zakonczyc program.");
 
         }
     }
