@@ -1,57 +1,39 @@
 ﻿using System;
 
-namespace InformacjeoUzytkowniku
+namespace Testowanie
+
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+            Console.WriteLine("Pierwsze pytanie:");
 
-            Console.WriteLine("Witaj");
-            
-            Console.WriteLine("Podaj swoje imie");
-            
-            string imie = Console.ReadLine();
-            
-            Console.WriteLine("Witaj " + imie);
-            
-            Console.WriteLine("Podaj swoje nazwisko");
-            
-            string nazwisko = Console.ReadLine();
-            
-            Console.WriteLine("Super nazwisko " + nazwisko);
-            
-            Console.WriteLine("Podaj swoj wiek");
-            
-            int wiek = Convert.ToInt32(Console.ReadLine());
-            
-            Console.WriteLine("Twój wiek to " + wiek);
-            
-            string sex = "";
-            
-            bool validSex = false;
-            
-            while (!validSex)
-            {
-                Console.WriteLine("Podaj swoja plec (M lub K)");
-            
-                sex = Console.ReadLine();
-                
-                if (sex == "M" || sex == "K")
+            Console.WriteLine("Ile kot ma oczu?");
 
-                    validSex = true;
-                
-                else
-                    Console.WriteLine("Podales zla plec");
-            }
-            
-            Console.WriteLine("Twoja plec " + sex);
-            
-            if (sex == "M")
-                Console.WriteLine("Czyli jestes normalnym facetem");
-            else
-                Console.WriteLine("Czyli jestes normalna kobieta");
+            string odp1 = Console.ReadLine();
+
+            Console.WriteLine(" Podales odpowiedz: " + odp1 + " Bardzo dobrze");
+
+            Console.WriteLine("Drugie pytanie");
+
+            Console.WriteLine("Ile pies ma siersci?");
+
+            string odp2 = Console.ReadLine();
+
+            Console.WriteLine("Twoja Odpowiedz to " + odp2 + " No swietnie");
+
+            Console.WriteLine("Trzecie pytanie, bedzie trudno ");
+
+            Console.WriteLine("Ile nóg ma z przecinkiem?");
+
+            double odp3 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Twoja odpowiedz to " + odp3 + " Ja pierdziele, jestem zszokowany");
+
+            Console.WriteLine("Dziekuje i do widzenia");
+
         }
-
     }
 }
